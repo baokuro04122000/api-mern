@@ -1,4 +1,14 @@
 {
+  "name": "api-mern",
+  "version": "1.0.0",
+  "description": "this is an api server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "keywords": [],
+  "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "body-parser": "^1.20.0",
@@ -23,20 +33,7 @@
     "uuid": "^8.2.0",
     "uuidv1": "^1.6.14"
   },
-  "name": "docker",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "migratedb": "node migration.js"
-  },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.16"
-  },
-  "keywords": [],
-  "description": ""
+  }
 }
